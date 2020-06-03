@@ -1,0 +1,27 @@
+*{
+    text-transform: uppercase;
+}
+/*main*/
+#main{
+    width:100%;
+    justify-content: space-around;
+}
+
+/* class rep as . Id rep as # */
+.card{
+    width: 30%;
+    background-color:#aaa;
+    text-align:center;
+    justify-content: space-around;
+    margin:0 auto;
+    border:1px solid red;
+    border-radius:20% 0;
+    box-shadow:6px 6px 6px -2px ;
+}
+/*styles for image*/
+.card>img{
+    
+    height:40%;
+    width:50%;
+    border-radius:20% 20%;
+}
