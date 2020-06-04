@@ -1,13 +1,15 @@
+/*(1)-rep *- universal selector */
 *{
     text-transform: uppercase;
 }
-/*main*/
+/*(2)-rep #-id selector for unique or particular paragraph*/
 #main{
     width:100%;
     justify-content: space-around;
 }
-
-/* class rep as . Id rep as # */
+/* (3) tag selector-ex-p*/
+/*(4) class selector-rep='.' -to change selected */
+/*(5) group selector-p,h*/
 .card{
     width: 30%;
     background-color:#aaa;
